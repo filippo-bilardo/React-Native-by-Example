@@ -13,14 +13,14 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
 
 ### Parte I: Fondamenti di React Native
 
-1. **[Introduzione a React Native](01_Introduzione_React_Native/README.md)**
+1. **[Introduzione a React Native](01%20-%20Fondamenti%20di%20React%20Native/01_Introduzione_React_Native.md)**
    - Storia ed evoluzione di React Native
    - Architettura e funzionamento del framework
    - React Native vs altri framework (Flutter, Ionic, Xamarin)
    - Il bridge JavaScript-Native e la New Architecture
    - Quando usare React Native
 
-1. **[Configurazione dell'Ambiente di Sviluppo](02_Ambiente_Sviluppo/README.md)**
+2. **[Configurazione dell'Ambiente di Sviluppo](01%20-%20Fondamenti%20di%20React%20Native/02_Ambiente_Sviluppo.md)**
    - Installazione di Node.js e package manager (npm/yarn)
    - React Native CLI vs Expo: differenze e scelta
    - Setup ambiente Android (JDK, Android Studio, SDK)
@@ -28,7 +28,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
    - Creazione del primo progetto
    - Emulatori, simulatori e dispositivi fisici
 
-2. **[JavaScript e TypeScript per React Native](03_JavaScript_TypeScript/README.md)**
+3. **[JavaScript e TypeScript per React Native](01%20-%20Fondamenti%20di%20React%20Native/03_JavaScript_TypeScript.md)**
    - JavaScript moderno (ES6+) per React Native
    - Arrow functions, destructuring, spread operator
    - Promises e async/await
@@ -36,7 +36,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
    - Configurazione TypeScript in React Native
    - Tipi, interfacce e generics
 
-3. **[Fondamenti di React](04_Fondamenti_React/README.md)**
+4. **[Fondamenti di React](01%20-%20Fondamenti%20di%20React%20Native/04_Fondamenti_React.md)**
    - Componenti funzionali e JSX
    - Props e comunicazione tra componenti
    - State locale con useState
@@ -46,7 +46,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
 
 ### Parte II: Sviluppo dell'Interfaccia Utente
 
-5. **[Componenti Core di React Native](05_Componenti_Core/README.md)**
+5. **[Componenti Core di React Native](02%20-%20Sviluppo%20dell'Interfaccia%20Utente/05_Componenti_Core.md)**
    - View, Text, Image
    - ScrollView e FlatList per liste performanti
    - TextInput e gestione della tastiera
@@ -54,7 +54,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
    - Modal, Alert, Switch
    - ActivityIndicator e StatusBar
 
-6. **[Styling e Layout](06_Styling_Layout/README.md)**
+6. **[Styling e Layout](02%20-%20Sviluppo%20dell'Interfaccia%20Utente/06_Styling_Layout.md)**
    - Flexbox in React Native
    - StyleSheet API e stili inline
    - Responsive design e dimensioni dello schermo
@@ -62,7 +62,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
    - Temi e variabili di stile
    - Librerie di styling (Styled Components, Tailwind)
 
-7. **[Navigazione tra Schermate](07_Navigazione/README.md)**
+7. **[Navigazione tra Schermate](02%20-%20Sviluppo%20dell'Interfaccia%20Utente/07_Navigazione.md)**
    - React Navigation: installazione e setup
    - Stack Navigator per navigazione gerarchica
    - Tab Navigator per menu a schede
@@ -70,7 +70,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
    - Passaggio di parametri tra schermate
    - Deep linking e navigation state
 
-8. **[Liste e Performance](08_Liste_Performance/README.md)**
+8. **[Liste e Performance](02%20-%20Sviluppo%20dell'Interfaccia%20Utente/08_Liste_Performance.md)**
    - FlatList: rendering ottimizzato di liste
    - SectionList per liste con sezioni
    - VirtualizedList per casi complessi
@@ -78,7 +78,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
    - Pull-to-refresh e infinite scrolling
    - Best practices per liste performanti
 
-9. **[Animazioni e Gestures](09_Animazioni_Gestures/README.md)**
+9. **[Animazioni e Gestures](02%20-%20Sviluppo%20dell'Interfaccia%20Utente/09_Animazioni_Gestures.md)**
    - Animated API di React Native
    - LayoutAnimation per animazioni semplici
    - React Native Reanimated 2/3
@@ -86,7 +86,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
    - Animazioni di transizione tra schermate
    - Esempi pratici: swipe, drag, parallax
 
-10. **[Formulari e Validazione](10_Form_Validazione/README.md)**
+10. **[Formulari e Validazione](02%20-%20Sviluppo%20dell'Interfaccia%20Utente/10_Form_Validazione.md)**
     - Gestione di form complessi
     - Validazione input lato client
     - React Hook Form per React Native
@@ -96,7 +96,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
 
 ### Parte III: Dati e Networking
 
-11. **[Networking e API REST](11_Networking_API/README.md)**
+11. **[Networking e API REST](03%20-%20Dati%20e%20Networking/11_Networking_API.md)**
     - Fetch API e Axios
     - Chiamate HTTP: GET, POST, PUT, DELETE
     - Gestione degli errori di rete
@@ -104,7 +104,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
     - Headers, autenticazione e token
     - Best practices per le chiamate API
 
-12. **[State Management Avanzato](12_State_Management/README.md)**
+12. **[State Management Avanzato](03%20-%20Dati%20e%20Networking/12_State_Management.md)**
     - Redux Toolkit per applicazioni complesse
     - Redux con TypeScript
     - Middleware: thunks e saga
@@ -112,7 +112,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
     - Recoil per state management
     - Scelta del giusto strumento
 
-13. **[Persistenza dei Dati](13_Persistenza_Dati/README.md)**
+13. **[Persistenza dei Dati](03%20-%20Dati%20e%20Networking/13_Persistenza_Dati.md)**
     - AsyncStorage per dati semplici
     - SQLite per database relazionali
     - Realm per database NoSQL
@@ -120,7 +120,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
     - Secure Storage per dati sensibili
     - Cache e offline-first strategies
 
-14. **[GraphQL e Client Moderni](14_GraphQL/README.md)**
+14. **[GraphQL e Client Moderni](03%20-%20Dati%20e%20Networking/14_GraphQL_Apollo.md)**
     - Introduzione a GraphQL
     - Apollo Client in React Native
     - Query, mutations e subscriptions
@@ -130,7 +130,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
 
 ### Parte IV: Funzionalità Native
 
-15. **[Accesso alla Fotocamera e Galleria](15_Camera_Galleria/README.md)**
+15. **[Accesso alla Fotocamera e Galleria](04%20-%20Funzionalit%C3%A0%20Native/15_Fotocamera_Galleria.md)**
     - React Native Camera
     - Expo Camera API
     - Image Picker per selezione foto
@@ -138,7 +138,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
     - Permessi runtime su iOS e Android
     - Upload di immagini
 
-16. **[Geolocalizzazione e Mappe](16_Geolocalizzazione_Mappe/README.md)**
+16. **[Geolocalizzazione e Mappe](04%20-%20Funzionalit%C3%A0%20Native/16_Geolocalizzazione_Mappe.md)**
     - Geolocation API
     - React Native Maps
     - Marker, regioni e clustering
@@ -146,7 +146,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
     - Background location tracking
     - Gestione permessi di localizzazione
 
-17. **[Notifiche Push](17_Notifiche_Push/README.md)**
+17. **[Notifiche Push](04%20-%20Funzionalit%C3%A0%20Native/17_Notifiche_Push.md)**
     - Notifiche locali
     - Firebase Cloud Messaging (FCM)
     - Apple Push Notification Service (APNS)
@@ -154,7 +154,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
     - Deep linking da notifiche
     - Scheduling e notifiche ricorrenti
 
-18. **[Multimedia e Sensori](18_Multimedia_Sensori/README.md)**
+18. **[Multimedia e Sensori](04%20-%20Funzionalit%C3%A0%20Native/18_Moduli_Nativi.md)**
     - Audio playback e recording
     - Video player
     - Accelerometro e giroscopio
@@ -164,7 +164,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
 
 ### Parte V: Produzione e Qualità
 
-19. **[Performance e Ottimizzazione](19_Performance/README.md)**
+19. **[Performance e Ottimizzazione](05%20-%20Produzione%20e%20Qualit%C3%A0/20_Performance.md)**
     - Profiling e debugging performance
     - Hermes JavaScript Engine
     - Bundle size optimization
@@ -172,7 +172,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
     - Memory leaks e come evitarli
     - Native performance monitoring
 
-20. **[Testing](20_Testing/README.md)**
+20. **[Testing](05%20-%20Produzione%20e%20Qualit%C3%A0/19_Testing.md)**
     - Jest per unit testing
     - Testing componenti con React Native Testing Library
     - Mock di API e moduli nativi
@@ -180,7 +180,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
     - End-to-end testing con Detox
     - Coverage e CI/CD integration
 
-21. **[Sicurezza](21_Sicurezza/README.md)**
+21. **[Sicurezza](05%20-%20Produzione%20e%20Qualit%C3%A0/21_Deployment.md)**
     - Secure storage di dati sensibili
     - SSL Pinning
     - Code obfuscation
@@ -188,7 +188,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
     - Prevenzione di reverse engineering
     - Best practices di sicurezza
 
-22. **[Build, Release e Deployment](22_Build_Release/README.md)**
+22. **[Build, Release e Deployment](05%20-%20Produzione%20e%20Qualit%C3%A0/22_Monitoring.md)**
     - Configurazione per production
     - Build Android (APK e AAB)
     - Build iOS (IPA e archiving)
@@ -199,7 +199,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
 
 ### Parte VI: Argomenti Avanzati e Progetti
 
-23. **[Moduli Nativi e Bridging](23_Moduli_Nativi/README.md)**
+23. **[Moduli Nativi e Bridging](06%20-%20Argomenti%20Avanzati%20e%20Progetti/23_Pattern_Avanzati.md)**
     - Quando servono moduli nativi
     - Creare moduli nativi per Android (Kotlin/Java)
     - Creare moduli nativi per iOS (Swift/Objective-C)
@@ -207,7 +207,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
     - Fabric Renderer
     - Librerie third-party native
 
-24. **[New Architecture di React Native](24_New_Architecture/README.md)**
+24. **[New Architecture di React Native](06%20-%20Argomenti%20Avanzati%20e%20Progetti/24_New_Architecture.md)**
     - Introduzione alla New Architecture
     - JSI (JavaScript Interface) e Turbo Modules
     - Fabric Renderer e miglioramenti UI
@@ -215,7 +215,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
     - Migrazione da Old a New Architecture
     - Compatibilità librerie third-party
 
-25. **[Progetti Completi](25_Progetti_Completi/README.md)**
+25. **[Progetti Completi](06%20-%20Argomenti%20Avanzati%20e%20Progetti/25_Progetto_Completo.md)**
     - Progetto 1: App E-commerce con carrello e pagamenti
     - Progetto 2: Social Network con chat real-time
     - Progetto 3: App Fitness con tracking e grafici
@@ -224,7 +224,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
     - Manutenzione e aggiornamenti
 
 ### Parte VII: Expo
-1. [Sviluppo Mobile con Expo - Fondamenti](01bis%20-%20Sviluppo%20Mobile%20con%20Expo/README.md)
+1. **[Sviluppo Mobile con Expo - Fondamenti](07%20-%2001.Sviluppo%20Mobile%20con%20Expo/README.md)**
    - 📱 Panorama dello sviluppo mobile moderno (Native, Hybrid, Cross-platform)
    - 🎯 Introduzione a Expo: architettura, SDK ed ecosystem
    - ⚙️ Setup completo ambiente Expo (Node.js, Expo CLI, VS Code, Expo Go)
@@ -234,7 +234,7 @@ Il corso segue l'approccio **"learning by example"**: ogni concetto è accompagn
    - 📸 Expo SDK APIs: Camera, Location, Notifications (esempi completi)
    - 💪 Esercizi pratici e quiz finale
 
-2. [Expo EAS Advanced](01ter%20-%20Expo%20EAS%20Advanced/README.md)
+2. **[Expo EAS Advanced](07%20-%2002.Expo%20EAS%20Advanced/README.md)**
    - 🏗️ EAS Build: build iOS senza Mac e Android automatizzati
    - 🔄 EAS Update: deployment OTA, branches, rollback
    - 🔌 Config Plugins custom: URL schemes e permessi
@@ -290,4 +290,4 @@ Questo materiale didattico è rilasciato sotto licenza Creative Commons BY-NC-SA
 
 **Buon apprendimento e buon coding!** 🚀📱
 
-[Inizia dal Capitolo 1: Introduzione a React Native →](01_Introduzione_React_Native/README.md)
+[Inizia dal Capitolo 1: Introduzione a React Native →](01%20-%20Fondamenti%20di%20React%20Native/01_Introduzione_React_Native.md)
